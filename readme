@@ -1,0 +1,24 @@
+Example of contents of options for disks:
+shape disks
+vertices 8
+N 30
+Lr 10
+th 0.1
+tau 10
+ar 10
+fails_max 100000
+
+vertices is the number of vertices in the polygons which are top/bottom of the
+disks
+
+Lr is how much times cubic box edge length is larger than the radius of the
+outer circumference of the disk top/bottom.
+
+th is the thickness of the disk, its outer circumference equals to th*ar/2
+
+tau is how much time interface thickness is larger than the thickness of the
+disk
+
+ar is aspect ratio
+
+fails_max is maximal number of unsuccessive attempts to add disks into the system

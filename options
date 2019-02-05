@@ -1,0 +1,8 @@
+shape disks
+vertices 8
+N 30
+Lr 10
+th 0.1
+tau 10
+ar 10
+fails_max 100000
